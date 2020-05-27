@@ -28,8 +28,8 @@ public class DictionaryRequest extends AsyncTask<String  , Integer , String> {
         protected String doInBackground(String... params) {
 
             //TODO: replace with your own app id and app key
-            final String app_id = "6e1effff";
-            final String app_key = "95479d610826930d67000ec39c8de2f4";
+            final String app_id = "6e1effff";  // add the Id from the API credentials
+            final String app_key = "95479d610826930d67000ec39c8de2f4";   // add the key from the API credentials
             try {
                 URL url = new URL(params[0]);
                 HttpsURLConnection urlConnection = (HttpsURLConnection) url.openConnection();
